@@ -1,0 +1,400 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,500;1,700&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  box-sizing: border-box;
+}
+
+/* - ---------------------------------------------Navbar start ------------------------- -- */
+.navbar {
+  background-color: #ffffff;
+  overflow: hidden;
+}
+
+.navbar .navbar-brand {
+  float: left;
+  padding: 10px 20px;
+  color: #000000;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.navbar .nav {
+  float: right;
+  margin: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar .nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.navbar .nav li:last-child {
+  margin-right: 0;
+}
+
+.navbar .nav a {
+  color: #000000;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.navbar .nav a:hover {
+  color: #ff7f50;
+}
+
+/* icon  */
+
+.navbar .nav i {
+  margin-right: 5px;
+  font-size: 14px;
+  color: #ff0000;
+}
+.icon-bg-color {
+  background-color: whitesmoke;
+  padding: 5px;
+  margin: 5px;
+}
+/* hover  */
+
+.navbar .nav a:hover i {
+  color: #ff7f50;
+}
+
+/* - ---------------------------------------------Navbar End ------------------------- -- */
+
+/* <!-- ---------------------------------------------Play Like the G.O.A.T Start--------------------------- --> */
+
+.goat-container {
+  background-color: #bef7ff;
+  width: 99%;
+  margin: 20px auto;
+}
+.text-part {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #000000;
+  text-align: center;
+}
+.heading-text {
+  text-align: center;
+  font-family: Work Sans;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  text-transform: uppercase;
+  color: #f948b2;
+  text-align: center;
+}
+/* play-container-section */
+.play-container-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style for the text column */
+.text-column {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-column {
+  flex: 1;
+}
+
+.image-part img {
+  width: 300px;
+}
+.image-column img {
+  width: 500px;
+  height: auto;
+}
+
+/* <!-- ---------------------------------------------Play Like the G.O.A.T End--------------------------- --> */
+
+/* <!-- ---------------------------------------------We are gamer section Start --------------------------- --> */
+
+.online-games-section {
+  background-color: #fdfdfd;
+  width: 95%;
+  margin: 5px;
+  padding: 2px 100px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: end;
+}
+.online-games-items img {
+  width: 200px;
+  height: auto;
+}
+
+/* <!-- ---------------------------------------------We are gamer section End --------------------------- --> */
+
+/* <!-- ---------------------------------------------Play Instant Start --------------------------- --> */
+
+.play-instant-section {
+  background-color: #ffffff;
+  width: 95%;
+  margin: 5px auto;
+  padding: 50px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-evenly;
+  align-items: center;
+  justify-items: center;
+}
+
+.play-instant-section img {
+  width: 400px;
+}
+.play-instant-text {
+  text-align: end;
+}
+
+.play-instant-img img {
+  position: relative;
+}
+.play-instant-img imgC {
+  position: absolute;
+  bottom: 0;
+}
+
+/* <!-- ---------------------------------------------Play Instant End --------------------------- --> */
+
+/* <!-- ---------------------------------------------Play Game Online Start --------------------------- --> */
+/* <!-- ---------------------------------------------Play Game Online End --------------------------- --> */
+/* <!-- ---------------------------------------------Careers section Start --------------------------- --> */
+.careers {
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+  margin: 20px auto;
+}
+.careers-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+}
+.careers-section-text-devision {
+  display: flex;
+}
+
+.careers-section-image img {
+  width: 300px;
+}
+.careers-section-first-text {
+  color: #ffffff;
+  font-size: 12px;
+  text-align: start;
+  padding: 120px;
+}
+.text-flex {
+  display: flex;
+  align-items: center;
+  justify-items: flex-end;
+}
+
+.t-items {
+  padding: 5px;
+  margin: 1px;
+}
+.t-items p {
+  color: #ffffff;
+}
+/* CSS */
+.button-34 {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+}
+/* <!-- ---------------------------------------------Careers section End --------------------------- --> */
+/* <!-- ---------------------------------------------Action Game start  --------------------------- --> */
+.action-game-section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+  margin: 20px 0px;
+  padding: 50px auto;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  align-items: center;
+  justify-items: center;
+}
+.action-game-five-class {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 5px;
+}
+.action-game-four-class {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  align-items: center;
+  justify-content: space-between;
+  grid-gap: 5px;
+}
+.game-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  padding: 10px;
+  margin: 5px;
+}
+.game-five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 10px;
+  padding: 10px;
+  margin: 5px;
+}
+
+.game-five:hover {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: gainsboro;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+.game-four:hover {
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: gainsboro;
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+/* <!-- ---------------------------------------------Action Game End  --------------------------- --> */
+/* <!-- ---------------------------------------------Footer section Start --------------------------- --> */
+.main-footer-section {
+  background-color: #0b0223;
+  color: #ffffff;
+  text-align: center;
+  align-items: center;
+  padding: 50px 5px;
+}
+
+.footer-section {
+  display: grid;
+  grid-auto-flow: row;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 2px;
+  text-align: center;
+}
+
+.footer-items {
+  display: flex;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.footer-text {
+  padding: 10px;
+}
+.footer-items a {
+  text-decoration: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 12px;
+  padding-right: 20px;
+}
+/* <!-- ---------------------------------------------Footer section End --------------------------- --> */
+
+/* - ---------------------------------------------Media Query start ------------------------- -- */
+/* nav bar  */
+@media (max-width: 768px) {
+  .navbar .nav {
+    display: none;
+  }
+
+  .menu-button {
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .menu-button.active + .navbar .nav {
+    display: block;
+  }
+}
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
+
+/* play goat section  */
+
+@media (max-width: 480px) {
+  .play-container-section,
+  .main-footer-section,
+  .action-game-section,
+  .careers-section,
+  .careers,
+  .play-instant-section,
+  .online-games-section,
+  .goat-container,
+  .action-game-four-class,
+  .action-game-five-class {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .text-column,
+  .image-column {
+    flex: none;
+    width: 100%;
+  }
+}
+
+/* - ---------------------------------------------Media Query End ------------------------- -- */
